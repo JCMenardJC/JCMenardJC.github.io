@@ -1,0 +1,57 @@
+@font-face{ 
+	font-family: 'Play-Bold';
+	
+		src: url('Play-Bold.ttf') format('truetype');
+}
+	body
+	{
+		font-family: 'Play-Bold', Arial, serif;
+		background-image: url("background.png");
+		border: 5px solid #33364d;
+		margin: 100px;
+	}
+	h1,h3
+	{
+		text-align: center;
+	}
+	h1
+	{
+		color: #33364d;
+		font-size: 3em;
+	}
+	h3
+	{
+		color:  #109e92;
+		font-size: 1.6em;
+	}
+	#liste0
+	{
+		font-size: 1.5em;
+		padding: 3px;
+		list-style-type: none;
+	}
+	#liste1,#liste3,#phone
+	{
+		color: #33364d;
+		background-color: #109e92;
+	}
+	#liste2,#mail
+	{
+		color:  #109e92;
+		background-color: #33364d;
+	}
+	p
+	{
+		text-align: center;
+	}
+	#coordonnées
+	{
+		text-align: right;
+		list-style-type: none;
+		font-size: 1.2em;
+		padding: 3px;
+	}
+	#RS
+	{
+		background-color: #33364d;
+	}
